@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact- Aqila Usrat</title>
+</head>
+
+<body>
+    
+    <header>
+    <nav>
+        <hr>
+        <a href="index.html">Home</a> |
+        <a href="educations.html">Education</a> |
+        <a href="experience.html">Experience</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="contact.html">Contact</a>
+        <hr>
+    </nav>
+</header>
+    <h1>Contact- Aqila Usrat</h1>
+
+    <form method="post">
+
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            <table cellpadding="8">
+
+                <tr>
+                    <td><label for="firstName">First Name  -</label></td>
+                    <td>
+                        <input type="text" id="firstName" name="firstName"
+                            placeholder="Enter first name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="lastName">Last Name  -</label></td>
+                    <td>
+                        <input type="text" id="lastName" name="lastName"
+                            placeholder="Enter last name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Gender -</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="male" required> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email (required) -</label></td>
+                    <td>
+                        <input type="email" id="email" name="email"
+                            placeholder="Enter email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="companyName">Company -</label></td>
+                    <td>
+                        <input type="text" id="companyName" name="companyName"
+                            placeholder="Enter company name ">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Reason for Contact -</label></td>
+                    <td>
+                        <input type="checkbox" name="reason" value="projects" required> Projects
+                        <input type="checkbox" name="reason" value="thesis"> Thesis
+                        <input type="checkbox" name="reason" value="job"> Job
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Topics  -</label></td>
+                    <td>
+                        <input type="checkbox" name="topic" value="web" required> Web Development
+                        <input type="checkbox" name="topic" value="mobile"> Mobile Development
+                        <input type="checkbox" name="topic" value="aiml"> AI/ML Development
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="cdate">Consultation Date  -</label></td>
+                    <td>
+                        <input type="date" id="cdate" name="cdate" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+    </form>
+
+    <br>
+    <a href="index.html">Back to Home</a>
+
+</body>
+
+</html>

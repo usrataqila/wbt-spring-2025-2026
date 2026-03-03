@@ -1,0 +1,79 @@
+/* ---------- Page Background ---------- */
+
+body {
+    background-color: #f4f1ff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/* ---------- Navigation (Clean, No Borders) ---------- */
+
+/* ---------- Navigation (Very Simple) ---------- */
+
+nav {
+    text-align: center;
+    padding: 15px 0;
+    background-color: transparent;   /* removes purple strip */
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    margin: 0 25px;
+}
+
+nav a:hover {
+    color: #5a4fcf;
+}
+/* ---------- Profile Box ---------- */
+
+.profile-box {
+    background-color: #dcd6f7;
+    margin: 20px;        /* reduced from 40px */
+    padding: 20px;       /* reduced from 30px */
+    border: 2px solid #5a4fcf;
+}
+.profile-box {
+    margin: 20px auto;
+    width: 85%;
+}
+/* ---------- Image ---------- */
+
+img {
+    border: 2px solid darkblue;
+    margin: 10px 0;
+    width: 160px;        /* slightly smaller */
+}
+
+/* ---------- Headings ---------- */
+
+.center-name {
+    text-align: center;
+    color: darkblue;
+    margin-top: 0;
+}
+
+h3 {
+    color: darkblue;
+}
+
+/* ---------- Paragraph ---------- */
+
+p {
+    color: black;
+}
+.bio-text {
+    color: black;
+    font-weight: normal;
+}
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+}
+
