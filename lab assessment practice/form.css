@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11px; 
+    margin: 10px;
+    color: black;
+}
+
+
+h1 {
+    color: red;
+    font-size: 15px;
+    margin: 5px 0 10px 0;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 2px 0;
+    vertical-align: top;
+    font-weight: bold; 
+}
+
+
+td:first-child {
+    width: 125px; 
+    text-align: right;
+    white-space: nowrap;
+    padding-right: 6px; 
+}
+
+/* star red */
+.required {
+    color: red;
+}
+
+
+.note {
+    font-weight: normal;
+    font-size: 10px;
+    display: block; 
+}
+
+input[type="text"] {
+    width: 180px;
+    height: 18px;
+    border: 1px solid #767676;
+}
+
+select {
+    width: 150px;
+    height: 20px;
+}
+
+/*box */
+.other-input {
+    width: 140px !important;
+}
+
+.small-box {
+    width: 40px !important; 
+    height: 18px;
+}
+
+.tiny-box {
+    width: 30px !important; 
+    height: 18px;
+}
+
+.normal-text {
+    font-weight: normal;
+}
+
+.radio-row label {
+    margin-right: 5px;
+}
