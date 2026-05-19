@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donor Form Aqila </title>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <h1>Donor Information</h1>
+
+    <form method="post">
+        <table>
+            <tr>
+                <td>First Name <span class="required">*</span></td>
+                <td><input type="text" id="firstName" name="firstName" required></td>
+            </tr>
+            <tr>
+                <td>Last Name <span class="required">*</span></td>
+                <td><input type="text" id="lastName" name="lastName" required></td>
+            </tr>
+            <tr>
+                <td>Company</td>
+                <td><input type="text" id="company" name="company"></td>
+            </tr>
+            <tr>
+                <td>Address 1 <span class="required">*</span></td>
+                <td><input type="text" id="address1" name="address1" required></td>
+            </tr>
+            <tr>
+                <td>Address 2</td>
+                <td><input type="text" id="address2" name="address2"></td>
+            </tr>
+            <tr>
+                <td>City <span class="required">*</span></td>
+                <td><input type="text" id="city" name="city" required></td>
+            </tr>
+            <tr>
+                <td>State <span class="required">*</span></td>
+                <td>
+                    <select id="state" name="state" required>
+                        <option value="">Select a State</option>
+                        <option>Dhaka</option>
+                        <option>Chattogram</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zip Code <span class="required">*</span></td>
+                <td><input type="text" id="zip" name="zip" required></td>
+            </tr>
+            <tr>
+                <td>Country <span class="required">*</span></td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option value="">Select a Country</option>
+                        <option>Bangladesh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td>Fax</td>
+                <td><input type="text" id="fax" name="fax"></td>
+            </tr>
+            <tr>
+                <td>Email <span class="required">*</span></td>
+                <td><input type="text" id="email" name="email" required></td>
+            </tr>
+
+            <tr>
+                <td>
+                    Donation Amount <span class="required">*</span>
+                    <span class="note">(Check a button or type in your amount)</span>
+                </td>
+                <td class="radio-row">
+                    <label class="normal-text"><input type="radio" name="donation" value="none"> None</label>
+                    <label class="normal-text"><input type="radio" name="donation" value="50"> $50</label>
+                    <label class="normal-text"><input type="radio" name="donation" value="75"> $75</label>
+                    <label class="normal-text"><input type="radio" name="donation" value="100"> $100</label>
+                    <label class="normal-text"><input type="radio" name="donation" value="250"> $250</label>
+                    <label class="normal-text"><input type="radio" name="donation" value="other"> Other</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Other Amount $</td>
+                <td><input type="text" id="otherAmount" name="otherAmount" class="other-input"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    Recurring Donation
+                    <span class="note">(Check if yes)</span>
+                </td>
+                <td>
+                    <input type="checkbox" name="recurring" value="yes">
+                    <span class="normal-text">I am interested in giving on a regular basis.</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <span class="normal-text">Monthly Credit Card $</span>
+                    <input type="text" id="monthlyCard" name="monthlyCard" class="small-box">
+                    <span class="normal-text">For</span>
+                    <input type="text" id="months" name="months" class="tiny-box">
+                    <span class="normal-text">Months</span>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
